@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    margin: 0;
+    padding: 0;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+  
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.header{
+    width:100%;
+    height: 400px;
+    background-image: url('http://jess-rk.design/wp-content/uploads/2019/06/jelly-4.jpg');
+    background-size: contain;	
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.tribar{
+    border: none;
+    float: right;
+    height: 30px;
+    width: 30px;
+    margin: 10px 10px 0 0;
+    
+    
+    background-image: url('/images/tribar02.png');
+    background-repeat: no-repeat;
+}
+
+.main{
+    width:100%;
+    height: 400px;
+    background-color: rgb(220, 255, 255);
+}
+.footer{
+    width:100%;
+    height: 400px;
+    background-color: rgb(255, 220, 255);
+}
